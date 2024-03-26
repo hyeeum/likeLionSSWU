@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  .black-han sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    font-family: "Black Han Sans", sans-serif;
+  }
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: #ffe6f6;
+    width: 100%;
+  }
+  .header-r {
+    display: flex;
+    h1 {
+      margin-right: 2rem;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .big-head {
+    height: 100px;
+    display: flex;
+    /* 중앙 배열 코드 추가 */
+    justify-content: space-between;
+
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }  
+  .big-head > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+  .main-page {
+    /* 중앙 배열 코드 추가 */
+    text-align: center;
+  }
+  .introduce_text > p {
+    color: #eecde2;
+    font-family: "Black Han Sans", sans-serif;
+    margin-top: 3rem;
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.5em; /* 줄 간격을 1.5배로 설정 */
+  }
+  .emphasize {
+    font-family: "Black Han Sans", sans-serif;
+    color: white;
+    text-shadow: -1px -1px 0 #eecde2, 1px -1px 0 #eecde2, -1px 1px 0 #eecde2,
+      1px 1px 0 #eecde2;
+  }
+  img {
+    width: 18rem;
+    /* 이미지 모서리 둥근 정도 추가 */
+    border-radius: 5%;
+    margin-bottom: 120px;
+    /* 이미지 그림자 추가 */
+    box-shadow:0 5px 5px grey;
+  }
+  
+  footer {
+    background-color: #ffe6f6;
+    /* 폰트 색 추가 */
+    color: #ffffff;
+    /* 텍스트 중앙 정렬 추가 */
+    text-align: center;
+    align-items : center;
+
+    padding: 1em;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+  footer > p {
+    font-family: "Pretendard-Regular";
+    font-weight: 600;
+  }
