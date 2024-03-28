@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 1250px;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    height: 100px;
+}
+
+#header .logo {
+    width: 20%;
+    background-color: #54D8DC;
+}
+
+#header .nav {
+    width: 80%;
+    background-color: #86DADC;
+}
+
+#main {
+    display: flex;
+    height: 880px;
+}
+
+#main >div {
+    position: relative; 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.3%;
+    transition: all 0.3s;
+}
+
+#main >div p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    z-index: 1;
+}
+
+.content01::before,
+.content02::before,
+.content03::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s;
+}
+
+.content01:hover::before,
+.content02:hover::before,
+.content03:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content01 {
+    background-image: url(https://raw.githubusercontent.com/jeongsaeyeong/likelion_2024/db11b8f5d4d1389e05c3822b9272079b3c8b3f50/1%ED%9A%8C%EC%B0%A8/assets/img/layout04_01.png);
+}
+
+.content02 {
+    background-image: url(https://raw.githubusercontent.com/jeongsaeyeong/likelion_2024/db11b8f5d4d1389e05c3822b9272079b3c8b3f50/1%ED%9A%8C%EC%B0%A8/assets/img/layout04_02.png);
+}
+
+.content03 {
+    background-image: url(https://raw.githubusercontent.com/jeongsaeyeong/likelion_2024/db11b8f5d4d1389e05c3822b9272079b3c8b3f50/1%ED%9A%8C%EC%B0%A8/assets/img/layout04_03.png);
+}
+
+#footer {
+    display: flex;
+    height: 100px;
+}
+
+#footer .logo {
+    width: 20%;
+    background-color: #FDE1E0;
+}
+
+#footer .copyright_box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright_box .copyright01 {
+    width: 100%;
+    height: 50px;
+    background-color: #FECECE;
+}
+
+.copyright_box .copyright02 {
+    width: 100%;
+    height: 50px;
+    background-color: #FDB2B5;
+}
