@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 1250px;
+    height: 100vh;
+}
+
+#header {
+    display: flex;
+    height: 100px;
+}
+
+#header .logo {
+    width: 20%;
+    background-color: #6B705C;
+}
+
+#header .nav {
+    width: 80%;
+    background-color: #3B5A42;
+}
+
+#main {
+    background-color: #DCD7CB;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    height: 780px;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+}
+
+.top_left > div {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 190px;
+    width: 700px;
+}
+
+.top_img01 {
+    background-image: url(https://raw.githubusercontent.com/jeongsaeyeong/likelion_2024/db11b8f5d4d1389e05c3822b9272079b3c8b3f50/1%ED%9A%8C%EC%B0%A8/assets/img/layout05_01.png);
+}
+
+.top_img02 {
+    margin-top: 20px;
+    background-image: url(https://raw.githubusercontent.com/jeongsaeyeong/likelion_2024/db11b8f5d4d1389e05c3822b9272079b3c8b3f50/1%ED%9A%8C%EC%B0%A8/assets/img/layout05_02.png);
+}
+
+.top_right {
+    margin-left: 50px;
+}
+
+.top_img03 {
+    background-image: url(https://raw.githubusercontent.com/jeongsaeyeong/likelion_2024/db11b8f5d4d1389e05c3822b9272079b3c8b3f50/1%ED%9A%8C%EC%B0%A8/assets/img/layout05_03.png);
+    width: 400px;
+    height: 400px;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+}
+
+.bottom_left {
+    width: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.bottom_left > div {
+    background-color: #A1B189;
+    width: 150px;
+    height: 150px;
+    margin-right: 23px;
+}
+
+.bottom_right {
+    width: 54%;
+    height: 320px;
+    background-color: #588158;
+}
+
+#footer {
+    background-color: #334E41;
+    height: 100px;
+}
