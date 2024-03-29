@@ -35,38 +35,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 33.3%;
-    transition: all 0.3s;
-}
-
-#main >div p {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    font-size: 40px;
-    color: white;
-    font-weight: 100;
-    z-index: 1;
-}
-
-.content01::before,
-.content02::before,
-.content03::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 0.3s;
-}
-
-.content01:hover::before,
-.content02:hover::before,
-.content03:hover::before {
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .content01 {
