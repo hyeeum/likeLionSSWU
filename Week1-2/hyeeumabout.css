@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  .black-han sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  .black-han sans-regular {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    font-family: "Black Han Sans", sans-serif;
+  }
+  body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./IMG_5896.jpg),url(./IMG_5896.jpg),url(./IMG_5896.jpg);
+    background-size: 33.3%,33.3%,33.3%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: white;
+  }
+  .header-r {
+    display: flex;
+    h1 {
+      margin-right: 2rem;
+    }
+  }
+  header a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+  .big-head {
+    height: 100px;
+    display: flex;
+    /* 중앙 배열 코드 추가 */
+    justify-content: space-between;
+
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }  
+  .big-head > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+ .about a{
+    color: #FF7979;
+  }
+  .introduce_text > p {
+    color: rgb(0, 0, 0);
+    font-family: "Black Han Sans", sans-serif;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 0.2em; /* 줄 간격을 1.5배로 설정 */
+    text-align: center;
+  }
+  .emphasize {
+    font-family: "Black Han Sans", sans-serif;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.5em; /* 줄 간격을 1.5배로 설정 */
+    text-align: center;
+  }
+  .emphasize2 {
+    font-family: "Black Han Sans", sans-serif;
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.5em; /* 줄 간격을 1.5배로 설정 */
+    text-align: center;
+  }
+  img {
+    width: 18rem;
+    /* 이미지 모서리 둥근 정도 추가 */
+    border-radius: 5%;
+    margin-bottom: 120px;
+    /* 이미지 그림자 추가 */
+    box-shadow:0 5px 5px grey;
+  }
