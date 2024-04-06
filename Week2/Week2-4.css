@@ -1,0 +1,103 @@
+body {
+    width: 1080px;
+    height: 1250px;
+    margin: 0 auto;
+}
+#header {
+    height: 100px;
+    display: flex;
+}
+.left {
+    width: 200px;
+    background-color: #EAE9EE;
+}
+.nav {
+    width: 880px;
+    background-color: #C2C3D6;
+}
+#main {
+    height: 880px;
+}
+.top {
+    height: 440px;
+    display: flex;
+}
+.top_left {
+    width: 250px;
+    background-color: #E1E1F5;
+}
+.top_right {
+    width: 830px;
+}
+.right_top {
+    height: 220px;
+    display: flex;
+}
+.right_top1 {
+    width: 730px;
+    background-color: #C0C0FB;
+}
+.right_top2 {
+    width: 300px;
+    background-color: #7878D4;
+}
+.right_bottom {
+    height: 220px;
+    display: flex;
+}
+.right_bottom1 {
+    width: 300px;
+    background-color: #9999EF;
+}
+.right_bottom2 {
+    width: 730px;
+    background-color: #CACBE4;
+}
+.bottom {
+    height: 440px;
+    display: flex;
+}
+.bottom_left1 {
+    width: 177px;
+    background-color: #7878D4;
+}
+.bottom_left2 {
+    width: 177px;
+    background-color: #353AC2;
+}
+.bottom_left3 {
+    width: 177px;
+    background-color: #0D1163;
+}
+.bottom_right {
+    width: 750px;
+}
+.bottom_right_top {
+    height: 220px;
+    background-color: #666CEE;
+    display: flex;
+}
+.bottom_right_bottom {
+    height: 220px;
+    display: flex;
+}
+.bottom_right_bottom1 {
+    width: 372px;
+    background-color: #7D7FA7;
+}
+.bottom_right_bottom2 {
+    width: 372px;
+    background-color: #4C4F8C;
+}
+#footer {
+    height: 100px;
+    display: flex;
+}
+.footer_small {
+    width: 200px;
+    background-color: #3A258A;
+}
+.footer_big {
+    width: 880px;
+    background-color: #6469CD;
+}
