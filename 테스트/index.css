@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#wrap {
+    margin:0 auto;
+    width: 1250px;
+    height: 1080px;
+}
+#header {
+    height: 100px;
+    display: flex;
+}
+.h-1 {
+    width: 250px;
+    background-color: #EEEEE9;
+}
+.h-2 {
+    width: 1000px;
+    background-color: #D6CCC2;
+}
+#main {
+    height: 880px;
+    position : relative;
+}
+.m-1 {
+    height: 440px;
+    background-color: #F5ECE1;
+}
+.m-2 {
+    height: 440px;
+    display: flex;
+}
+.m-3 {
+    width: 500px;
+    height: 500px;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* width의 50% */
+    margin-top: -50px; /* height의 50% */background-color: #866756;
+}
+.m-2-1 {
+    width: 625px;
+    background-color: #E4D6CA;
+}
+.m-2-2 {
+    width: 625px;
+    background-color: #D5BEB1;
+}
+#footer {
+    height: 100px;
+    background-color: #D6CCC2;
+}
+@media (max-width:680px) {
+    .m-2 {
+        display: block;
+    }
+    .h-1 {
+        width: 0;
+        height: 0;
+    }
+    .h-2 {
+        width: 1000px;
+    }
+    .m-1 {
+        width: 625px;
+        height: 294px;
+    }
+    .m-2-1 {
+        width: 625px;
+        height: 294px;
+    }
+    .m-2-2 {
+        width: 625px;
+        height: 294px;
+    }
+}
