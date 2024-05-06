@@ -1,0 +1,56 @@
+.body{
+    width: 1980px;
+    height: 1080px;
+    position: relative; /*  body(부모 요소)가 __box(자식 요소)의 기준점이 됨 */
+    border: 1px solid black;
+}
+
+#firstbox,#secondbox,#thirdbox,#fourthbox,#fifthbox,#rightbox{
+    position: absolute; /* 부모 요소인 body를 기준으로 위치가 결정된다. */
+    background: black;
+}
+
+#firstbox {
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: 365px;
+}
+
+#secondbox {
+    width: 200px;
+    height: 200px;
+    top: 140px;
+    left: 465px;
+}
+
+#thirdbox {
+    width: 300px;
+    height: 300px;
+    top: 340px;
+    left: 665px;
+}
+
+#fourthbox {
+    width: 200px;
+    height: 200px;
+    top: 640px;
+    left: 965px;
+}
+
+#fifthbox {
+    width: 200px;
+    height: 200px;
+    top: 840px;
+    left: 1165px;
+}
+
+#rightbox {
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 1365px;
+}
+
+
+
