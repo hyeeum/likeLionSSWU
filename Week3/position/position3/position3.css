@@ -1,0 +1,71 @@
+body {
+    width: 1980px;
+    height: 1080px;
+    position: relative;
+    border: 1px solid black;
+}
+
+#black {
+    position: absolute;
+   background-color: black;
+   width: 1250px;
+   height: 100px;
+   top: 40px;
+   left: 365px; 
+}
+
+#darkgray {
+    position: absolute;
+   background-color: #676767;
+   width: 100px;
+   height: 700px;
+   top: 40px;
+   left: 365px; 
+}
+
+#gray {
+    position: absolute;
+   background-color: #B4B4B4;
+   width: 675px;
+   height: 100px;
+   top: 340px;
+   left: 365px; 
+}
+/** rotate 사용법
+#gray:hover {
+    position: absolute;
+   background-color: #B4B4B4;
+   width: 100px;
+   height: 675px;
+   top: 440px;
+   left: 365px; 
+   transform: rotate( 90deg );
+}
+*/
+
+#lightgray {
+    position: absolute;
+   background-color: #DEDEDE;
+   width: 100px;
+   height: 400px;
+   top: 340px;
+   left: 940px; 
+}
+
+#lightpurple {
+    position: absolute;
+   background-color: #C7AEEF;
+   width: 675px;
+   height: 100px;
+   top: 740px;
+   left: 940px;
+}
+
+#purple {
+    position: absolute;
+   background-color: #6C4D9D;
+   width: 100px;
+   height: 200px;
+   top: 740px;
+   left: 1515px; 
+}
