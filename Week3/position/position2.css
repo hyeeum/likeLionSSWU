@@ -1,0 +1,74 @@
+body {
+    width: 1980px;
+    height: 1080px;
+    position: relative;
+    border: 1px solid black;
+}
+
+*[id] {
+    position: absolute;
+    background: black;
+}
+
+#one {
+    top: 40px;
+    left: 365px;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    top: 40px;
+    left: 665px;
+    width: 100px;
+    height: 100px;
+}
+
+#three {
+    top: 40px;
+    left: 1365px;
+    width: 200px;
+    height: 200px;
+}
+
+#four {
+    top: 140px;
+    left: 465px;
+    width: 200px;
+    height: 200px;
+}
+
+#five {
+    top: 240px;
+    left: 965px;
+    width: 100px;
+    height: 100px;
+}
+
+#six {
+    top: 340px;
+    left: 665px;
+    width: 300px;
+    height: 300px;
+}
+
+#seven {
+    top: 740px;
+    left: 465px;
+    width: 100px;
+    height: 100px;
+}
+
+#eight {
+    top: 640px;
+    left: 965px;
+    width: 200px;
+    height: 200px;
+}
+
+#nine {
+    top: 840px;
+    left: 1165px;
+    width: 200px;
+    height: 200px;
+}
