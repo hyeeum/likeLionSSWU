@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1200px;
+    height: 800px;
+}
+
+header,footer {
+    display: flex;
+    background-color: #444C61;
+}
+
+header {
+    width: 1200px;
+}
+
+ul li{
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color:#F5E4EA;
+}
+
+nav {
+    display: flex;
+}
+
+ul{
+    z-index: 1;
+}
+
+nav h1 {
+    width: 20%;
+    text-align: left;
+}
+
+header {
+    z-index: 1;
+}
+
+#menu {
+    width:80%;
+    height:50px;
+    color: #F5E4EA;
+    line-height: 50px; 
+    margin:0 auto;
+    text-align: center;
+}
+
+#menu > ul > li {
+    float:left;
+    width:140px;
+    position:relative;
+}
+
+#menu > ul > li > ul {
+    width:130px;
+    display:none;
+    position: absolute;
+    font-size:14px;
+    background: black;
+    opacity : 0.7;
+}
+
+#menu > ul > li:hover > ul {
+    display:block;
+}
+
+#menu > ul > li > ul > li:hover {
+    background: #F5E4EA;
+}
+
+#menu > ul > li > ul > li:hover a{
+    color: black;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slider 7.5s infinite linear;
+  }
+  
+  .slide:nth-child(1) {
+    background-image: url(assets/Rectangle\ 92.svg);
+    animation-delay: 0;
+  }
+  .slide:nth-child(2) {
+    background-image: url(assets/Rectangle\ 99.svg);
+    animation-delay: -2.5s;
+  }
+  .slide:nth-child(3) {
+    background-image: url(assets/Rectangle\ 100.svg);
+    animation-delay: -5s;
+  }
+  
+  @keyframes slider {
+    0% {
+      transform: translateY(0);
+    }
+  
+    26% {
+      transform: translateY(0);
+    }
+    33% {
+      transform: translateY(-100%);
+      animation-timing-function: step-end;
+    }
+    93% {
+      transform: translateY(100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.bottom {
+    height: 280px;
+    display: flex;
+}
+/**탭메뉴*/
+.tabmenu{
+    float: left;
+    width: 400px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+    background-color: #F5E4EA;
+    position: relative;
+}
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    line-height: 48px;
+}
+.tabmenu>li.active>a{
+    background-color: #444C61;
+    color: #F5E4EA;
+}
+.notice a {
+    color:#444C61
+}
+.tabmenu>li>a{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #444C61;
+    text-decoration-line: none;
+}
+.tabmenu>li.active div{
+    width: 400px;
+    height: 280px;
+    z-index: 1;
+}
+.tabmenu>li div{
+   position: absolute;
+   color: #444C61;
+   top: 60px;
+   left: 0;
+   overflow: hidden; /**하나가 앞에 있을때 뒤에 있는걸 숨김*/
+   height: 0;
+}
+.notice ul{
+    float: left;
+    width: 390px;
+}
+.notice li{
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+}
+.notice li span{
+    float: right;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+.gallery li{
+    float:left; 
+}
+.gallery img{
+    width: 120px;
+    height: 200px;
+    padding: 5px;
+}
+#banner {
+    color: #FFFFFF;
+    font-size: 25px;
+    position: relative;
+    width: 400px;
+    background-size: cover; /**이미지의 가로세로 비율을 유지하면서, 이미지가 잘리더라도 주어진 크기를 꽉 채운다. */
+    background-image: url(assets/Rectangle\ 92\ \(1\).svg);
+}
+#banner h1 {
+    margin: 0; /**없으면 수직 가운데 정렬이*/
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+#shortcut {
+    color: #FFFFFF;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    background-size: cover;
+    background-image: url(assets/Rectangle\ 92\ \(2\).svg);
+}
+#shortcut h1 {
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+footer > p {
+    justify-content: center;
+}
+
+
+#modalContent {
+    width: 500px;
+    height: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    background: #F5E4EA;
+    border-radius: 10px;
+    transform: translate( -50%, -50% );
+    z-index: 10;
+}
+#modalContent h1 {
+    margin: 0;
+    height: 60px;
+    background-color: #444C61;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 60px;
+    border-radius: 10px 10px 0 0 ;
+}
+#modalContent p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #444C61;
+}
+#modalContent button {
+    background-color: #444C61;
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: #F5E4EA;
+    float: right;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+#modalContent.hidden{
+    display: none;
+}
