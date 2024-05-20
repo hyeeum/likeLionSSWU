@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    background-color: #92CAFF;
+    box-sizing: border-box;
+    font-family: 'NanumSquareNeo-Variable';
+    justify-content: center;
+}
+
+h3 {
+    color: #fff;
+    font-size: 40px;    text-align: center;
+}
+
+.input {
+    width: 530px;
+    height: 70px;
+    background-color: #fff;
+    color: #A3A3A3;
+    border: 0;
+    padding-left: 45px;
+    font-size: 18px;
+}
+
+.cardButton {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    background-color: #fff;
+    border: 0;
+}
+
+.todoWrap {
+    display: flex;
+}
+
+.TodoList {
+    justify-items: center;
+    width: 600px;
+}
+
+.item-wrap {
+    width: 600px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.title-container {
+    text-align: left;
+}
