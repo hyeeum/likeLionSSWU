@@ -1,0 +1,22 @@
+.swiper-container {
+    width: 100%;
+    height: 400px; 
+    z-index: 1; 
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .swiper-slide-image {
+            width: 100%; 
+            height: 100%;
+            object-fit: cover; 
+        }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: #000;
+    }
+}
