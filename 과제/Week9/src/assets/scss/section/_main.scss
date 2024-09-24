@@ -1,0 +1,33 @@
+.Main_wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.introduce {
+    width: 336px;
+    height: 160px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+.notice {
+    margin-top: 35px;
+    width: 335px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-top: #3F426F solid 1px;
+    border-bottom: #3F426F solid 1px;
+    position: relative;
+}
+
+.notice text {
+    color: #3F426F;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 10px;
+}

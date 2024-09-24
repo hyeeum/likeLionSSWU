@@ -1,0 +1,83 @@
+.Search_wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,input::placeholder {
+    size: 15px;
+    font-weight: 200;
+    color: #cccddb;
+}
+
+.map_box {
+    width: 336px;
+    height: 336px;
+    border-radius: 20px;
+    margin-top: 28px;
+    position: relative;
+}
+
+.map {
+    width: 336px;
+    height: 336px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.open-bottom-sheet-btn {
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    align-items: center;
+    color: #fff;
+    background-color: #6A6FB3;
+    border-radius: 50px;
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    z-index: 1000;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 25px;
+    z-index: 1000;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.modal.active {
+    transform: translateY(0);
+}
+
+.modal_text {
+    size: 18px;
+    font-weight: 700;
+    color: #6A6FB3;
+    margin-top: 24px;
+    margin-bottom: 9px;
+}
